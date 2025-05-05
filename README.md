@@ -42,12 +42,15 @@ The main goal of this project is to centralize log storage for security monitori
    chmod +x send_logs.sh
    Test the Script:
 3. **To test the script, run it manually**:
-'''bash
+
+
+bash
 ./send_logs.sh
 
 4. **Schedule the Script with Cron**:
 Set up a cron job to run the script at regular intervals. For example, to run it every hour:
-'''bash
+
+bash
 crontab -e
 # Add the following line to the cron file
 0 * * * * /path/to/send_logs.sh
