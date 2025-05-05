@@ -20,7 +20,7 @@ The main goal of this project is to centralize log storage for security monitori
    - A bash script that automates log forwarding from a Linux machine to a remote server or shared folder using **rsync**.
    - Supports flexible configuration for log paths and remote destination.
 
-2. **Windows Script** (`send_logs.ps1`):
+2. **Windows Script** [`send_logs.ps1`](`send_logs.ps1`):
    - A PowerShell script for transferring logs from a Windows machine to a remote server or shared folder using **SCP**.
    - Easy to customize for various log sources and destinations.
 
