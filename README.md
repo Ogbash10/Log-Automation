@@ -45,12 +45,14 @@ The main goal of this project is to centralize log storage for security monitori
 
 
 bash
+
 ./send_logs.sh
 
 4. **Schedule the Script with Cron**:
 Set up a cron job to run the script at regular intervals. For example, to run it every hour:
 
 bash
+
 crontab -e
 # Add the following line to the cron file
 0 * * * * /path/to/send_logs.sh
