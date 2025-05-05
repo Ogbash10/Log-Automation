@@ -1,4 +1,4 @@
-# Cross-Platform Log Automation (Windows & Linux)
+# Log Automation (Windows & Linux)
 
 ## Project Description
 
