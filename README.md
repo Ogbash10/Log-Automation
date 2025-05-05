@@ -16,7 +16,7 @@ The main goal of this project is to centralize log storage for security monitori
 
 ## Project Files
 
-1. **Linux Script** (`send_logs.sh`):
+1. **Linux Script** [`send_logs.sh`](`send_logs.sh`):
    - A bash script that automates log forwarding from a Linux machine to a remote server or shared folder using **rsync**.
    - Supports flexible configuration for log paths and remote destination.
 
